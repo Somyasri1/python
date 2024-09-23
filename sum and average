@@ -1,0 +1,12 @@
+//WEEK -5
+
+//1)SUM AND AVERAGE
+n=[10,20,30,40,50]
+total_sum=sum(n)
+average=total_sum/len(n)
+print("sum:",total_sum)
+print("average:",average)
+
+ //O/P
+ sum: 150
+average: 30.0
