@@ -26,3 +26,13 @@ print(gcd(a,b))
 60
 48
 12
+
+5)
+def find_sceond_largest(number):
+	return sorted(set(number))[-2]
+number=[10,30,25,79,69]
+print("the second largest number is:",find_sceond_largest(number))
+
+//o/p
+the second largest number is: 69
+
