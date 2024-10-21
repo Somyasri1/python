@@ -10,3 +10,19 @@ print("average:",average)
  //O/P
  sum: 150
 average: 30.0
+
+//WEEK-7
+
+3)def gcd(a,b):
+	if b==0:
+		return a
+	else:
+		return gcd(b,a%b)
+a=int(input())
+b=int(input())
+print(gcd(a,b))
+
+//o/p
+60
+48
+12
